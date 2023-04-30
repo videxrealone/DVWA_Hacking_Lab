@@ -24,7 +24,7 @@ Because DVWA is an open-source project, it's constantly being updated and improv
 We just need to run the following commands:
 
 ```
-$ sudo apt-get update && sudo apt upgrade -y
+$ sudo apt update && sudo apt upgrade -y
 ```
 
 ## Configuring our Web Server (in our case Apache2)
