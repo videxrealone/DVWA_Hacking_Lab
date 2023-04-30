@@ -65,7 +65,42 @@ We just need to use **docker pull** to get the container.
 ```
 $ docker pull vulnerables/web-dvwa
 ```
+## Running the Docker Image
+The best thing when it comes to Docker, is that with just a simple command we can run the container.
 
+![11](https://user-images.githubusercontent.com/91763346/235369541-8f1c433b-e164-4c5c-b7e5-00feffd97eb9.PNG)
 
+```
+$ docker run --rm -it -p 80:80 vulnerables/web-dvwa
+```
+# Accessing the Damn Vulnerable Web Application Platform
 
+Now after running the Docker image, we have a ready-to-use **DVWA Platform** via our **localhost**.
+We just have to access **http://localhost/login.php**.
 
+## Accessing the Platform from the Docker Host (in our case the VM)
+
+![image](https://user-images.githubusercontent.com/91763346/235369873-45750806-f3c3-4bf6-9413-f7c934effba7.png)
+
+We just have to access **http://localhost/login.php**.
+
+## Accessing the Platform from the Any Network Host
+
+This is somewhat of the trickiest part in the guide.
+We need to make sure that:
+
+* The Virtual Machine's Network mode is on **Bridged** so that it can be accesible from the Host machine.
+* Making sure that we're connected to a network so that it can have an IP (even if we don't have Internet)
+
+In our case, our machine's IP is 
+* **IP**: 192.168.1.156
+
+We just have to access the **http://192.168.1.156**.
+
+![image](https://user-images.githubusercontent.com/91763346/235370285-2d219104-65d0-4b5a-8985-535760ae494c.png)
+
+# Epilogue
+
+I advise you to take your time with the **Low** difficulty and working your way up from there.
+I also found an interesting repo made by @**keewenaw**.
+* **Link**: https://github.com/keewenaw/dvwa-guide-2019
