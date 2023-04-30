@@ -44,6 +44,8 @@ Now we just need to check our localhost ( 127.0.0.1 ).
 
 # Setting up DVWA
 
+![image](https://user-images.githubusercontent.com/91763346/235363467-3b54f5bd-e1a4-49a0-9b5e-3f52b6abdbb6.png)
+
 In this step we need to get the container from DockerHub.
 
 * **Link** :https://hub.docker.com/r/vulnerables/web-dvwa/
@@ -58,10 +60,6 @@ $ sudo apt install docker.io -y
 ```
 
 ## Getting the DVWA Docker Container
-
-![image](https://user-images.githubusercontent.com/91763346/235363467-3b54f5bd-e1a4-49a0-9b5e-3f52b6abdbb6.png)
-
-* **Link** : https://hub.docker.com/r/vulnerables/web-dvwa/
 
 We just need to use **docker pull** to get the container.
 ```
