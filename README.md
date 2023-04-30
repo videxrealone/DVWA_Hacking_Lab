@@ -1,4 +1,4 @@
-# DVWA Hacking Lab
+# Creating your Very First Local Ethical Hacking Lab with Damn Vulnerable Web Application
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
