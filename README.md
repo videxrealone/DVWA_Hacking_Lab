@@ -38,7 +38,7 @@ To test it out, we just need to start it.
 ```
 $ sudo systemctl start apache2
 ```
-Now we just need to check our localhost ( 127.0.0.1 ).
+Now we just need to access **http://127.0.0.1**.
 
 ![image](https://user-images.githubusercontent.com/91763346/235361216-20262506-209f-4dfe-b150-dfc856cc5669.png)
 
